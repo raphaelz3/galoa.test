@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+header{
+    background-color: #FDF1EB;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+#selectHeader{
+    appearance: none;
+    background-color: #FDF1EB;
+    background-image: url('../img/language-image.png'), url('../img/arrow.jpg');
+    background-repeat: no-repeat;
+    background-position: center left, center right;
+    width: 97px;
+    height: 34px;
+    text-align: center;
+    border-radius: 10%;
+}
+
+#headerEmail{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+#principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+#splash{
+    color: #EE7B3A;
+    height: 88.5vh;
+    width: 783px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
+#videoTitle{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    height: 54px;
+    margin-top: 15px;
+    display: flex;
+}
+#startVideo{
+    width: 783px;
+    height: 439px;
+    max-width: 100%;
+    border: 1.5px solid #E7E7E7;
+}
+
+#details{
+    width: 242px;
+    height: 88.5vh;
+    display: flex;
+    flex-direction: column;
+}
+.buttonDetails{
+    text-decoration: none;
+}
+#boxButton{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 54px;
+    margin-top: 15px;
+}
+
+.btn{
+    background-color: #EE7B3A;
+    border-radius:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #ed7839b3;
+}
+
+#downloadButton{
+    width: 120px;
+    height: 31px;
+    color: white;
+}
+.smallBtn{
+    width:43px;
+    height: 31px;
+}
+table{
+    border-collapse: collapse;
+    margin-top: 25px;
+
+}
+.tableTitle{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    background-color: #FDF1EB;
+    padding-left: 10px;
+    text-align: left;
+    border: 1px solid #E7E7E7;
+    height: 55px;
+}
+.tableBody{
+    color: #5C5C5C;
+    font-size: 12px;
+    border: 1px solid #E7E7E7;
+    padding: 10px;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#detailsTableTitle{
+    width: 100%;
+}
+#detailsTablebody{
+    height: 364px;
+}
+#secondSection{
+    display: flex;
+    flex-direction: column;
+}
+.interections{
+    width: 1058px;
+}
+.tableBodyInterections{
+    max-height: 100px;
+}
+.tableInteractive{
+    cursor: pointer;
+}
+#checkResume{
+    display: none;
+}
+#checkResume:checked + #resume #checkBodyResume{
+    max-height: none;
+}
+.topicStart{
+    margin-bottom: 25px;
+    text-align: center;
+}
+.topicStart span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+    margin: 25px;
+}
+#createTopic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#createTopic hr{
+    width: 100%;
+}
+#createTopicButton{
+    position: absolute;
+    background-color: #ED7839;
+    text-align: center;
+    color: #E7E7E7;
+    border: none;
+    border-radius: 5px;
+    height: 32px;
+    width: 133px;
+    cursor: pointer;
+    font-size: large;
+}
+#typeTopic{
+ display: none;
+ width: 100%;
+ text-align: center;
+}
+#typeTopic h3{
+    color: #ED7839;
+    font-size: 16px;
+    text-align: justify;
+}
+#typeTopic input[type=text]{
+    width: 100%;
+    height: 33px;
+}
+#typeTopic textarea{
+    width: 100%;
+    height: 76px;
+}
+#typeTopic button{
+    width: 10%;
+    height: 33px;
+    background-color: #ED7839;
+    color: white;
+    font-size: large;
+    border: none;
+    border-radius: 5px;
+}
+#typeTopic button:hover{
+    background-color: #ed7839b3;
+    cursor: pointer;
+}
+
+.questions{
+    height: 148px;
+    box-shadow: 0 0 10px #F1F1F1;
+    margin: 15px;
+    margin-top: 25px;
+    padding: 8px;
+}
+.createSubject{
+    color: #ED7839;
+    font-size: 16px;
+}
+.questions p:first-of-type{
+    font-size: 12px;
+    margin-bottom: 7px;
+}
+.questions p{
+    font-size: 14px;
+}

@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+
+}
+#lateralMenu{
+    box-shadow: 4px 4px 4px #F1F1F1;
+    width: 220px;
+    height: 100vh;
+    float: left;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+
+#title{
+    background-color: #F69747;
+    color: white;
+    height: 11%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title h1{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+#logo{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#listMenu{
+    list-style: none;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+#listMenu li{
+    border-bottom: 2px solid #E7E7E7;
+    height: 33px;
+    display: flex;
+    align-items: center;
+}
+
+.buttonMenu{
+    text-decoration: none;
+    color: rgb(48, 44, 44);
+    font-size: 15px;
+    line-height: 18.75px;
+}
+.buttonMenu:hover{
+    background-color: #FDF1EB;
+}
+.textButtonMenu{
+    padding-left: 15px;
+}
+#index #menu #lateralMenu #listMenu li.index{
+    background-image: url(../img/Rectangle.png);
+    background-repeat: no-repeat;
+}
+#comites #menu #lateralMenu #listMenu li.comites{
+    background-image: url(../img/Rectangle.png);
+    background-repeat: no-repeat;
+}
+#autores #menu #lateralMenu #listMenu li.autores{
+    background-image: url(../img/Rectangle.png);
+    background-repeat: no-repeat;
+}
+#eixos #menu #lateralMenu #listMenu li.eixos{
+    background-image: url(../img/Rectangle.png);
+    background-repeat: no-repeat;
+}
+#trabalhos #menu #lateralMenu #listMenu li.trabalhos{
+    background-image: url(../img/Rectangle.png);
+    background-repeat: no-repeat;
+}
+#contato #menu #lateralMenu #listMenu li.contato{
+    background-image: url(../img/Rectangle.png);
+    background-repeat: no-repeat;
+}
